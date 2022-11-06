@@ -11,7 +11,7 @@ void Numbers(int m)
     for (int i = 0; i < m; i++)
     {
         Console.Write($"Введите {i + 1} число: ");
-        arrayNumbers[i] = int.Parse(Console.ReadLine()??"");
+        arrayNumbers[i] = int.Parse(Console.ReadLine() ?? "");
     }
 }
 
